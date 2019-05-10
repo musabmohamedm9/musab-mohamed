@@ -1,0 +1,353 @@
+* {
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', sans-serif;
+	color: #333;
+}
+
+
+h4{
+	font-size: 21px;
+}
+
+h4,h5,h6 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	color: #333;
+	width: 100%;
+	height: 100%;
+	font-size: 17px;
+	line-height: 1.7;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+}
+       /*--------- Navigation Bar Section ---------*/
+nav{
+	background-color: lightblue;
+
+}
+nav:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.logo{
+	margin: 20px;
+}
+.logo, .menu {
+	display: inline-block;
+}
+.menu {
+	float: right;
+	margin: 20px;
+}
+.menu ul {
+	list-style: none;
+	padding-left: 0px;
+	margin: 0;
+
+}
+.menu ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+.menu ul li a {
+	text-decoration: none;
+	padding: 20px 10px 20px 10px;
+}
+.menu ul li a:hover{
+	background-color: blue;
+	color: white;
+	transition: all 0.5s ease;
+}
+       /*------------ Header Bar Section ----------*/
+header {
+	background-image: url(img/pic1.jpg);
+	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: -50px;
+}
+header p {
+	margin: 0;
+}
+.hero-container{
+	text-align: center;
+	padding-top: 100px;
+}
+.btn-about {
+	background-color: #85af4b;
+	display: inline-block;
+	padding: 10px 25px;
+	color: white;
+	margin: 15px 10px;
+	font-weight: bold;
+	border-radius: 20px;
+	text-decoration: none;
+
+}
+.btn-contact {
+	background-color: white;
+	color: #85af4b;
+	padding: 10px 25px;
+	display: inline-block; 
+	font-weight: bold;
+	border-radius: 20px;
+	text-decoration: none;
+}
+.btn-about:hover{
+	background-color: white;
+	color: #85af4b;
+	transition: all 0.5s ease;
+}
+.btn-contact:hover{
+	background-color: #85af4b;
+	color: white;
+	transition: all 0.5s ease;
+}
+       /*------------ About Me Section ----------*/
+      .about-me {
+      	width: 100%;
+      	padding-top: 70px;
+      	padding-bottom: 70px;
+
+      }
+      .about-me:after{
+      	content: '';
+      	display: block;
+      	clear: both;
+      }
+      .about-me h2 {
+      	color: #333;
+      	text-align: center;
+      	text-transform: uppercase;
+      	position: relative;
+      	margin-bottom: 30px;
+      }
+      .about-me h2:after{
+      	content: '';
+      	position: absolute;
+      	width: 80px;
+      	height: 2px;
+      	margin-left: 630px;
+      	left: 50px;
+      	bottom: 0px;
+      	background-color: #85af4b
+
+      }
+      .about-me .col-left, .about-me .col-right {
+      	width: 50%;
+      	float: left;
+      }
+.about-me a{
+	background-color: #85af4b;
+	padding: 10px 25px;
+	text-decoration: none;
+	color: white;
+	border-radius: 20px;
+	font-size: 17px;
+	display: inline-block;
+	border: 1px solid #85af4b;
+}
+.about-me a:hover{
+	background-color: rgb(226, 226, 226);
+	color: #85af4b;
+}
+      .about-me .col-left img {
+      	max-width: 80%;
+      	padding-left: 25px;
+
+
+      }
+
+     /*----------My Skills section--------*/
+
+     .my-skills {
+     	background-color: #e2e2e2;
+     	padding-top: 50px;
+     	padding-bottom: 50px;
+     	text-align: center;
+     }
+     .my-skills h2{
+     	text-transform: uppercase;
+     	position: relative;
+     }
+     .my-skills h2:after{
+      	content: '';
+      	position: absolute;
+      	width: 80px;
+      	height: 2px;
+      	margin-left: 630px;
+      	left: 50px;
+      	bottom: 0px;
+      	background-color: #85af4b
+
+      }
+     .my-skills:after {
+     	content: '';
+     	display: block;
+     	clear: both;
+     }
+.my-skills .skills-left, .my-skills .skills-center, .my-skills .skills-right {
+	width: 33.3333333333%;
+	display: inline-block;
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.my-skills i {
+	font-size: 60px;
+	color: #85af4b
+}
+
+     /*----------My projects section--------*/
+
+     .my-projects {
+     	background-color: #fff;
+     	padding-top: 50px;
+     	padding-bottom: 50px;
+     	text-align: center;
+     }
+     .my-projects:after {
+     	content: '';
+     	display: block;
+     	clear: both;
+     }
+     .my-projects h2 {
+     	text-transform: uppercase;
+     	margin-top: 0;
+     	position: relative;
+     }
+      .my-projects h2:after{
+      	content: '';
+      	position: absolute;
+      	width: 80px;
+      	height: 2px;
+      	margin-left: 630px;
+      	left: 50px;
+      	bottom: 0px;
+      	background-color: #85af4b
+
+      }
+
+.my-projects .project1, .my-projects .project2, .my-projects .project3 {
+	height: 300px;
+	width: 30%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.my-projects .project1 {
+	margin-left: 2%;
+	margin-right: 1.5%;
+	background-image: url(img/pic3.jpg);
+	background-size: cover;
+
+}
+.my-projects .project2 {
+	margin-left: 1%;
+	margin-right: 1%;
+	background-image: url(img/pic4.jpg);
+	background-size: cover;
+}
+.my-projects .project3 {
+	margin-left: 1.5%;
+	margin-right: 2%;
+	background-image: url(img/pic5.jpg);
+	background-size: cover;
+	
+}
+.my-projects .overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	padding-top: 310px;
+}
+.my-projects .overlay:hover {
+	padding-top: 130px;
+	transition: all 0.5s ease;
+	background-color: rgba(0, 0, 0, 0.6);
+
+
+}
+.overlay a{
+	display: inline-block;
+	font-size: 18px;
+	padding: 10px 20px;
+	border: 1px solid #fff;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+     /*----------Contact Page--------*/
+.contact{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.contact h1 {
+	color: black;
+	font-size: 46px;
+	text-align: center;
+}
+.header p {
+	color: #fff;
+	font-size: 12px; 
+	margin-top: 20px;
+	position: absolute;
+	text-align: center;
+}
+.form {
+	position : absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+input {
+	width: 100%;
+	margin: 20px 0;
+	background: rgba(0,0,0,0);
+	border: none;
+	border-bottom: 1px solid #0078ff;
+}
+#msg {
+	margin-top: 60px;
+}
+: : -webkit-inpput-placeholder {
+	color: #EAEAEA;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+
+button {
+	padding: 20px 32px;
+	font-size: 16px;
+	background: #0078ff;
+	border: none;
+	border-radius: 4px;
+	margin-top: 50px;
+	color: #fff;
+}
+ footer{
+        padding: 0;
+
+}
+footer {
+	background-color: #FFFFFF;
+	margin-left: 170px;
+  	font-style: italic;
+  	text-align: center;
+  	font-family: Georgia, "Times New Roman", serif;
+}
+
+
